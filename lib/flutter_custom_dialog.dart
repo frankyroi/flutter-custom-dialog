@@ -568,6 +568,7 @@ class ListTileItem {
     this.fontSize,
     this.fontWeight,
     this.fontFamily,
+    this.customField,
   });
 
   EdgeInsets padding;
@@ -577,6 +578,7 @@ class ListTileItem {
   double fontSize;
   FontWeight fontWeight;
   String fontFamily;
+  List customField;
 }
 
 class RadioItem {
@@ -586,6 +588,7 @@ class RadioItem {
     this.color,
     this.fontSize,
     this.fontWeight,
+    this.customField,
     this.onTap,
   });
 
@@ -593,6 +596,7 @@ class RadioItem {
   String text;
   Color color;
   double fontSize;
+  List customField;
   FontWeight fontWeight;
   Function(int) onTap;
 }
